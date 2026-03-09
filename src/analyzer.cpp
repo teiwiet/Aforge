@@ -16,7 +16,7 @@ void detect_credentials(const string file){
         }
     }
 };
-void detect_private_key(const string file){
+void detect_private_keys(const string file){
     ifstream f(file);
     if(!f.is_open()){
         cout << "Cannot open" << file;
